@@ -7,7 +7,7 @@
 [![Dependency Status](https://img.shields.io/david/feathersjs/authentication-azuread.svg?style=flat-square)](https://david-dm.org/feathersjs/authentication-azuread)
 [![Download Status](https://img.shields.io/npm/dm/@feathersjs/authentication-azuread.svg?style=flat-square)](https://www.npmjs.com/package/@feathersjs/authentication-azuread)
 
-> azuread authentication strategy for feathers-authentication using Passport without all the boilerplate.
+> AzureAD authentication strategy for feathers-authentication using Passport without all the boilerplate.
 
 ## Installation
 
