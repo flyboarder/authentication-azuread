@@ -1,8 +1,8 @@
 {
-  "name": "@feathersjs/authentication-local",
-  "description": "Local authentication strategy for @feathers/authentication",
+  "name": "@feathersjs/authentication-azuread",
+  "description": "azuread authentication strategy for @feathers/authentication",
   "version": "1.0.4",
-  "homepage": "https://github.com/feathersjs/authentication-local",
+  "homepage": "https://github.com/feathersjs/authentication-azuread",
   "main": "lib/",
   "keywords": [
     "feathers",
@@ -11,7 +11,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/feathersjs/authentication-local.git"
+    "url": "git://github.com/feathersjs/authentication-azuread.git"
   },
   "author": {
     "name": "Feathers contributors",
@@ -20,7 +20,7 @@
   },
   "contributors": [],
   "bugs": {
-    "url": "https://github.com/feathersjs/authentication-local/issues"
+    "url": "https://github.com/feathersjs/authentication-azuread/issues"
   },
   "engines": {
     "node": ">= 6"
@@ -54,7 +54,7 @@
     "lodash.merge": "^4.6.0",
     "lodash.omit": "^4.5.0",
     "lodash.pick": "^4.4.0",
-    "passport-local": "^1.0.0"
+    "passport-azure-ad": "^3.0.9"
   },
   "devDependencies": {
     "@feathersjs/authentication": "^2.0.0",

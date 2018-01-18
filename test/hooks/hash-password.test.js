@@ -19,7 +19,7 @@ describe('hooks:hashPassword', () => {
       app: {
         get: () => {
           return {
-            local: {
+            azuread: {
               passwordField: 'password'
             }
           };
