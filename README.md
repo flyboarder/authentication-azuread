@@ -32,7 +32,7 @@ app.configure(azuread());
 app.service('authentication').hooks({
   before: {
     create: [
-      authentication.hooks.authenticate(['azuread', 'jwt'])
+      authentication.hooks.authenticate(['azuread-openidconnect', 'jwt'])
     ]
   }
 });
